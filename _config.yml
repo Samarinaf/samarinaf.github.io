@@ -11,7 +11,6 @@ title: Java-разработчик
 address: Россия, Санкт-Петербург
 email: yanasamarina1@gmail.com
 phone: +79242481851
-telegram: https://t.me/yana_samarina
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -20,33 +19,22 @@ darkmode: false
 # twitter_username: facespics
 github_username:  Samarinaf
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: yana-samarina
 
-
 # Additional icon links
 additional_links:
-- title: telegram link
+- title: Telegram link
   icon: fab fa-telegram
   url: https://t.me/yana_samarina
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: Skype link
+  icon: fab fa-skype
+  url: https://join.skype.com/invite/bgHObg3BSxGb
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+about_content: | # this will include new lines to allow paragraphs  
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -105,10 +93,7 @@ content:
       - Rock climbing
       - Gaming
       - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
 
 # Footer
 footer_show_references: true
