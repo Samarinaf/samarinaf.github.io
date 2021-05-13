@@ -11,6 +11,7 @@ title: Java-разработчик
 address: Россия, Санкт-Петербург
 email: yanasamarina1@gmail.com
 phone: +79242481851
+telegram: https://t.me/yana_samarina
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -24,18 +25,13 @@ github_username:  Samarinaf
 # flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: yana-samarina
-# telegram_username: @yana_samarina
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+- title: telegram link
+  icon: fab fa-telegram
+  url: https://t.me/yana_samarina
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
