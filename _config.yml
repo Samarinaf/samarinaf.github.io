@@ -32,7 +32,7 @@ additional_links:
   url: https://join.skype.com/invite/bgHObg3BSxGb
 
 # About Section
-# about_title: About Me
+about_title: Ключевые навыки
 about_profile_image: profile.jpg
 about_content: | # this will include new lines to allow paragraphs  
  
@@ -71,32 +71,34 @@ content:
            - реализация сохранения в Postgres и HSQLDB на основе Spring JBDC, JPA(Hibernate) и Spring-Data-JPA,
            - реализация и тестирование REST и AJAX контроллеров,
            - реализация клиента на Bootstrap (css/js), datatables, jQuery + plugins,
-           - собственная доработка проекта.
-           [GitHub](https://github.com/Samarinaf/topjava)   
+           - собственная доработка проекта,
+           - [Ссылка на GitHub](https://github.com/Samarinaf/topjava)   
         
   - title: Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         title: ВИАКАДЕМИЯ, институт переподготовки и повышения квалификации
         caption: 2021
-        sub_title: Enterprise Java-разработчик
+        # sub_title: Enterprise Java-разработчик
         # quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        # description: | # this will include new lines to allow paragraphs
-      - layout: left
+        description: | Enterprise Java-разработчик
+      - layout: top-middle
         title: Филиал Дальневосточного федерального университета, Уссурийск
         caption: 2009-2014
-        sub_title: Преподаватель иностранных языков (английского и немецкого)
+        # sub_title: Преподаватель иностранных языков (английского и немецкого)
+        description: | Преподаватель иностранных языков (английского и немецкого)
+        
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
+ # - title: A Little More About Me
+ #  layout: text
+ #   content: | # this will include new lines to allow paragraphs
+ #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+ #     - Rock climbing
+ #     - Gaming
+ #     - Knitting
+ #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
 
 # Footer
 footer_show_references: true
