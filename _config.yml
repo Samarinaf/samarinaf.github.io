@@ -55,6 +55,8 @@ content:
        #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           Разработка собственного выпускного проекта с нуля: REST API (система голосования за рестораны), на стеке Java 15, Spring (MVC, Security, Data JPA), Hibernate, REST(Jackson), JUnit 5, HSQLDB, Maven, Git, Tomcat без front-end.
+  
+  
   - title: Опыт работы # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -74,6 +76,7 @@ content:
            - собственная доработка проекта,
            - [Ссылка на GitHub](https://github.com/Samarinaf/topjava)   
         
+  
   - title: Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -83,14 +86,16 @@ content:
         # sub_title: Enterprise Java-разработчик
         # quote: >
         #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | Enterprise Java-разработчик
+        description: | # this will include new lines to allow paragraphs
+         Enterprise Java-разработчик
       - layout: top-middle
         title: Филиал Дальневосточного федерального университета, Уссурийск
         caption: 2009-2014
         # sub_title: Преподаватель иностранных языков (английского и немецкого)
-        description: | Преподаватель иностранных языков (английского и немецкого)
+        description: | 
+         Преподаватель иностранных языков (английского и немецкого)
         
-
+        
  # - title: A Little More About Me
  #  layout: text
  #   content: | # this will include new lines to allow paragraphs
