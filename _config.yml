@@ -71,12 +71,12 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: ВИАКАДЕМИЯ, институт переподготовки и повышения квалификации
+        title: ВИАКАДЕМИЯ
         caption: 2021        
         description: | # this will include new lines to allow paragraphs
          Enterprise Java-разработчик
       - layout: left
-        title: Филиал Дальневосточного федерального университета, Уссурийск
+        title: ДВФУ
         caption: 2009-2014
         description: | 
          Преподаватель иностранных языков (английского и немецкого)
@@ -85,7 +85,7 @@ content:
   - title: Курсы, сертификаты
     layout: text
     content: | # this will include new lines to allow paragraphs
-     - JavaRush, Онлайн курс обучения программированию на Java (Syntax, Core, Multithreading, Collections) | 01.2020 - 05.2021
+     - JavaRush, Онлайн курс обучения программированию на Java (Syntax, Core, Multithreading, Collections) 
      - Udemy:
      - Java Database Connection: JDBC and MySQL,
      - Spring для начинающих,
