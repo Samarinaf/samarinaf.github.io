@@ -10,16 +10,13 @@ name: Самарина Яна
 title: Java-разработчик
 address: Россия, Санкт-Петербург
 email: yanasamarina1@gmail.com
-phone: +79242481851
+phone: 8(924)248-18-51
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
 github_username:  Samarinaf
-# stackoverflow_username: "00000001"
-# instagram_username: jameswgrant
 linkedin_username: yana-samarina
 
 # Additional icon links
@@ -34,7 +31,12 @@ additional_links:
 # About Section
 about_title: Ключевые навыки
 about_profile_image: /images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs  
+about_content: | # this will include new lines to allow paragraphs 
+ - Java 8+ (Core, Multithreading, Collections, Stream/Time API);
+ - Frameworks: Spring (MVC, Data JPA, Security, Boot), Hibernate ORM, JUnit;
+ - DB: PostgreSQL, MySQL, HSQLDB;
+ - Технологии: Servlets, JSP/JSTL, JDBC, REST, JPA;
+ - Инструменты: Git, Maven, Postman, Tomcat, IntelliJ IDEA.
  
 content:
   - title: Проекты # Title for the section
@@ -42,19 +44,9 @@ content:
     content:
       - layout: top-middle
         title: Restaurant Voting System
-        link: https://github.com/Samarinaf/topjava_graduation
-        # link_text: Project Website
-        # additional_links:
-        #  - title:  sproogen/modern-resume-theme
-        #   icon: fab fa-github
-        #    url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-       # quote: >
-       #   This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        link: https://github.com/Samarinaf/topjava_graduation       
         description: | # this will include new lines to allow paragraphs
-          Разработка собственного выпускного проекта с нуля: REST API (система голосования за рестораны), на стеке Java 15, Spring (MVC, Security, Data JPA), Hibernate, REST(Jackson), JUnit 5, HSQLDB, Maven, Git, Tomcat без front-end.
+          Разработка выпускного проекта с нуля: REST API (система голосования за рестораны), на стеке Java 15, Spring (MVC, Security, Data JPA), Hibernate, REST(Jackson), JUnit 5, HSQLDB, Maven, Git, Tomcat без front-end.
   
   
   - title: Опыт работы # Title for the section
@@ -65,9 +57,7 @@ content:
         link: https://javaops.ru/view/topjava
         # link_text: boringcompany.com
         sub_title: Java-разработчик
-        caption: январь 2021  - май 2021
-        # quote: >
-        # url: Link to project 
+        caption: январь 2021  - май 2021       
         description: | # this will include new lines to allow paragraphs
            Участие в разработке Spring/JPA Enterprise приложения c авторизацией и правами доступа на основе ролей, на стеке Maven/ Spring MVC/ Security/ REST(Jackson)/ Java 8 Stream API:
            - реализация сохранения в Postgres и HSQLDB на основе Spring JBDC, JPA(Hibernate) и Spring-Data-JPA,
@@ -80,30 +70,28 @@ content:
   - title: Образование # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: ВИАКАДЕМИЯ, институт переподготовки и повышения квалификации
-        caption: 2021
-        # sub_title: Enterprise Java-разработчик
-        # quote: >
-        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        caption: 2021        
         description: | # this will include new lines to allow paragraphs
          Enterprise Java-разработчик
-      - layout: top-middle
+      - layout: left
         title: Филиал Дальневосточного федерального университета, Уссурийск
         caption: 2009-2014
-        # sub_title: Преподаватель иностранных языков (английского и немецкого)
         description: | 
          Преподаватель иностранных языков (английского и немецкого)
         
         
- # - title: A Little More About Me
- #  layout: text
- #   content: | # this will include new lines to allow paragraphs
- #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
- #     - Rock climbing
- #     - Gaming
- #     - Knitting
- #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)      
+  - title: Курсы, сертификаты
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+     - JavaRush, Онлайн курс обучения программированию на Java (Syntax, Core, Multithreading, Collections) | 01.2020 - 05.2021
+     - Udemy:
+     - Java Database Connection: JDBC and MySQL,
+     - Spring для начинающих,
+     - Git: Полный курс для начинающих и не только,
+     - Продвинутая Java
+     - LevelUp, Основы программирования на языке Java. Уровень 2
 
 # Footer
 footer_show_references: true
